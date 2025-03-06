@@ -52,4 +52,8 @@ class OrderProcessorTest {
     //Verificar
     assertEquals(250, total);
 }
+
+    @Test
+    void testProcess() {
+    }
 }

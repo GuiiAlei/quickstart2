@@ -19,7 +19,7 @@ class PaymentServiceTest {
                 new OrderItem("Produto B", 50.0, 2),
                 new OrderItem("Produto C", 30.0, 3)
         );
-        Order order = new Order("ORD123", items);
+        order = new Order("ORD123", items);
 
     }
 
